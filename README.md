@@ -15,3 +15,5 @@ This is to say that, even though a structure may be mathematically correct, it s
 
 As of now, the algorithm only parses the backbone of the target protein, and will output a list of x,y,z-coordinates for roughly 30-35 atoms in PDB file format. 
 Currently I'm working on optimizing some of the data structures used to store the potential positions for each atom, which will dramatically improve computational time and should allow an entire backbone to be determined.
+
+See https://onlinelibrary.wiley.com/doi/full/10.1111/j.1475-3995.2007.00622.x for supprting documentation on the physics and mathematics behind this algorithm.
